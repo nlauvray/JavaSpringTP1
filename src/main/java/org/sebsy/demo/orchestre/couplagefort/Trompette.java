@@ -1,13 +1,13 @@
 package org.sebsy.demo.orchestre.couplagefort;
 
-public class Violon implements Instrument {
+public class Trompette implements Instrument {
     @Override
     public void afficher() {
-        System.out.println("Je suis un violon...");
+        System.out.println("Je suis une trompette...");
     }
 
     @Override
     public void jouer() {
-        System.out.println("ZIN ZIN ZIN");
+        System.out.println("TUT TUT TUT");
     }
 }
